@@ -1,4 +1,4 @@
-# Model for Topic-sensitive Influencer Discovery (MHT)
+# Model for Topic-sensitive Influencer Discovery (MTID)
 This is a C++ implementation of `MTID` (Topic-sensitive Influencer Discovery).   
 It is the submission to PAKDD 2018
 
@@ -13,12 +13,12 @@ It is the submission to PAKDD 2018
     Allocation and the number of topic is set to 10. Each line is the a paper's topic distribution and each column
     (e.g. colunm i) is the membership of papers in topic (i)   
 
-    aan.train.citation
+    aan.train.citation:
 
      line i represents the reference list (document ID) of document vi. The first column is the id of vi and the rest
      are the ids of refered papers.
 
-    aan.train.citation
+    aan.train.citation:
 
      line i represents the published year(document ID) of document vi. The first column is the id of vi and the second 
      is the year.
