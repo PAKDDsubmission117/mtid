@@ -9,7 +9,9 @@ It is the submission to PAKDD 2018
     
     aan.train.topic: 
     
-    This is a file representing the topic distribution of each document. We train the document with Latent Dirichlet Allocation and the number of topic is set to 10. Each line is the a paper's topic distribution and each column (e.g. colunm i) is the membership of papers in topic (i)   
+    This is a file representing the topic distribution of each document. We train the document with Latent Dirichlet
+    Allocation and the number of topic is set to 10. Each line is the a paper's topic distribution and each column
+    (e.g. colunm i) is the membership of papers in topic (i)   
 
     aan.train.citation
 
