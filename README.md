@@ -15,11 +15,13 @@ It is the submission to PAKDD 2018
 
     aan.train.citation
 
-     line i represents the reference list (document ID) of document vi. The first column is the id of vi and the rest are the ids of refered papers.
+     line i represents the reference list (document ID) of document vi. The first column is the id of vi and the rest
+     are the ids of refered papers.
 
     aan.train.citation
 
-     line i represents the published year(document ID) of document vi. The first column is the id of vi and the second is the year.
+     line i represents the published year(document ID) of document vi. The first column is the id of vi and the second 
+     is the year.
      
 # Compiling
 
