@@ -18,7 +18,7 @@ It is the submission to PAKDD 2018
      line i represents the reference list (document ID) of document vi. The first column is the id of vi and the rest
      are the ids of refered papers.
 
-    aan.train.citation:
+    aan.train.year:
 
      line i represents the published year(document ID) of document vi. The first column is the id of vi and the second 
      is the year.
@@ -35,3 +35,8 @@ Estimate the model by executing:
 main [number of document] [citation_file] [topic_file] [year_file] [number of topic] [MaxIter] [alpha] [beta] [STARTING_YEAR] [ENDING_YEAR] [output_file]
 ```  
      alpha and beta are the parameters for back-tracking problem
+     
+Example:
+```Bash
+main 14305 ./data/aan.train.citation ./data/aan.train.topic ./data/aan.train.year 10 100 0.8 0.4 1980 2014 ./data/out 
+```
