@@ -1,5 +1,5 @@
-# Model for Topic-sensitive Influencer Discovery (MTID)
-This is a C++ implementation of `MTID` (Model for Topic-sensitive Influencer Discovery).   
+# Model for Topic-sensitive Influential Paper Discovery (MTID)
+This is a C++ implementation of `MTID` (Model for Topic-sensitive Influential Paper Discovery).   
 It is the submission to PAKDD 2018
 
 *********
